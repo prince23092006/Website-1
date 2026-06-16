@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prince | Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="nav-container">
+        <div class="logo">Prince</div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+    <div class="hero-content">
+
+        <h1>Hi, I'm Prince 👋</h1>
+
+        <h2>Data Analyst | Power BI Developer | Excel Expert</h2>
+
+        <p>
+            I create professional dashboards, reports and business
+            insights using Excel, SQL, Power BI and Data Analytics.
+            My goal is to transform raw data into actionable insights.
+        </p>
+
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+
+    </div>
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <h2 class="section-title">About Me</h2>
+
+    <div class="card">
+        <p>
+            My name is Prince. I am passionate about Data Analytics,
+            Business Intelligence and Dashboard Development.
+
+            I work with Excel, SQL and Power BI to help organizations
+            make better decisions using data.
+        </p>
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+    <h2 class="section-title">My Skills</h2>
+
+    <div class="grid">
+        <div class="skill">Excel</div>
+        <div class="skill">Power BI</div>
+        <div class="skill">SQL</div>
+        <div class="skill">Python</div>
+        <div class="skill">Data Visualization</div>
+        <div class="skill">Dashboard Design</div>
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+    <h2 class="section-title">My Projects</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>HR Dashboard</h3>
+            <p>
+                Employee Attendance, Salary & Overtime Dashboard
+                built using Power BI.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Sales Dashboard</h3>
+            <p>
+                Interactive sales KPI dashboard with filters,
+                charts and business insights.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Excel Automation</h3>
+            <p>
+                Automated reports using Excel formulas,
+                Pivot Tables and Power Query.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+    <h2 class="section-title">Contact Me</h2>
+
+    <form id="contactForm">
+
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <textarea rows="6" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</section>
+
+<footer>
+
+    <h3>Prince Portfolio</h3>
+
+    <p>Power BI • Excel • SQL • Data Analytics</p>
+
+    <br>
+
+    <p>© 2025 Prince. All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
